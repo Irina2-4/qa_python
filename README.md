@@ -1,1 +1,29 @@
 # qa_python
+Добавление нескольких книг в список 
+test_add_new_book_add_books_pozitive
+
+Негативная проверка добавления книги с имененем более 40 символов
+test_add_new_book_add_long_name_negative
+
+Негативная проверка добавления книг с одинаковым имененем
+test_add_new_book_add_two_books_negative
+
+Позитивная проверка установление жанра книги
+test_set_book_genre_add_pozitive
+
+Позитивная проверка вывод жанра книги
+test_get_book_genre_pozitive
+
+Позитивная проверка вывод списка книг определенного жанра
+test_get_books_with_specific_genre_pozitive
+
+
+Позитивная проверка  получения списка книг подходящих для детей
+test_get_books_for_children_pozitive
+
+Позитивная проверка добавления книги в Избранное
+test_add_book_in_favorites_pozitive
+
+Позитивная проверка удаления книги из Избранного
+test_delete_book_from_favorites_pozitive
+
